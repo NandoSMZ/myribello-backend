@@ -4,35 +4,35 @@
     "nombre": "Americana",
     "descripcion": "Carne Angus, queso americano, tocineta, pepinillos, lechuga crespa, tomate, cebolla morada, salsa americana, salsa ranch, acompañada de papas a la francesa",
     "categoria": "Hamburguesas",
-    "tags": ["angus", "queso americano", "tocineta"]
+    "tags": ["carne angus", "queso americano", "tocineta"]
   },
   {
     "id": "ham2",
     "nombre": "Argentina",
     "descripcion": "Carne Angus, queso americano, tocineta, chorizo argentino, salsa BBQ, lechuga Batavia, tomate, acompañada de papas a la francesa",
     "categoria": "Hamburguesas",
-    "tags": ["angus", "queso americano", "tocineta", "chorizo argentino", "bbq"]
+    "tags": ["carne angus", "queso americano", "tocineta", "chorizo", "bbq"]
   },
   {
     "id": "ham3",
     "nombre": "Wstern Bacón",
     "descripcion": "Doble carne Angus, queso americano, tocineta, pepinillos, aros de cebolla apanados, salsa BBQ, salsa Ranch, acompañada con papas a la francesa",
     "categoria": "Hamburguesas",
-    "tags": ["doble angus", "queso americano", "tocineta", "aros de cebolla", "bbq"]
+    "tags": ["doble carne angus", "queso americano", "tocineta", "aros de cebolla", "bbq"]
   },
   {
     "id": "ham4",
     "nombre": "Magistral",
     "descripcion": "Carne Angus, queso americano, tocineta, carne de res ahumada terminada en cocción lenta con cerveza, cebolla crispy, lechuga crespa, tomate, salsas de la casa, acompañada de papas a la francesa",
     "categoria": "Hamburguesas",
-    "tags": ["angus", "queso americano", "tocineta", "res ahumada", "cerveza"]
+    "tags": ["carne angus", "queso americano", "tocineta", "res ahumada", "cerveza"]
   },
   {
     "id": "ham5",
     "nombre": "Gorrino",
     "descripcion": "Carne Angus, queso americano, tocineta, pepinillos, cebolla crispy, lechuga crespa, tomate, carne de cerdo ahumada terminada en cocción lenta con cerveza roja, acompañada de papas a la francesa",
     "categoria": "Hamburguesas",
-    "tags": ["angus", "queso americano", "tocineta", "cerdo ahumado", "cerveza roja"]
+    "tags": ["carne angus", "queso americano", "tocineta", "cerdo ahumado", "cerveza roja"]
   },
   {
     "id": "piz1",
@@ -268,22 +268,36 @@
   {
     "id": "cock1",
     "nombre": "Fresa Boom",
-    "descripcion": "Fresa Bombombum con Whiskey",
+    "descripcion": "Granizado de Fresa Bombombum con Whiskey",
     "categoria": "Con Licor",
-    "tags": ["fresa", "whiskey"]
+    "tags": ["fresa", "whiskey", "granizado"]
   },
   {
     "id": "cock2",
     "nombre": "Miami",
-    "descripcion": "Kola, Melón, Ron Blanco",
+    "descripcion": "Granizado de Kola, Melón, Ron Blanco",
     "categoria": "Con Licor",
-    "tags": ["kola", "melón", "ron blanco"]
+    "tags": ["kola", "melón", "ron blanco", "Granizado"]
   },
   {
     "id": "mock1",
     "nombre": "Mango Viche",
-    "descripcion": "Refrescante Mango Viche sin licor",
+    "descripcion": "Granizado de Mango Viche sin licor",
     "categoria": "Sin Licor",
-    "tags": ["mango", "sin licor"]
+    "tags": ["mango", "sin licor", "granizado"]
+  },
+  {
+    "id": "mock2",
+    "nombre": "Maracuya",
+    "descripcion": "Granizado de Maracuya sin licor",
+    "categoria": "Sin Licor",
+    "tags": ["maracuya", "sin licor", "granizado"]
+  },
+  {
+    "id": "mock3",
+    "nombre": "Mora Azul",
+    "descripcion": "Granizado de Mora Azul sin licor",
+    "categoria": "Sin Licor",
+    "tags": ["mora", "sin licor", "granizado"]
   }
 ]
