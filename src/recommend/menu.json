@@ -1,0 +1,303 @@
+[
+  {
+    "id": "ham1",
+    "nombre": "Americana",
+    "descripcion": "Carne Angus, queso americano, tocineta, pepinillos, lechuga crespa, tomate, cebolla morada, salsa americana, salsa ranch, acompañada de papas a la francesa",
+    "categoria": "Hamburguesas",
+    "tags": ["carne angus", "queso americano", "tocineta"]
+  },
+  {
+    "id": "ham2",
+    "nombre": "Argentina",
+    "descripcion": "Carne Angus, queso americano, tocineta, chorizo argentino, salsa BBQ, lechuga Batavia, tomate, acompañada de papas a la francesa",
+    "categoria": "Hamburguesas",
+    "tags": ["carne angus", "queso americano", "tocineta", "chorizo", "bbq"]
+  },
+  {
+    "id": "ham3",
+    "nombre": "Wstern Bacón",
+    "descripcion": "Doble carne Angus, queso americano, tocineta, pepinillos, aros de cebolla apanados, salsa BBQ, salsa Ranch, acompañada con papas a la francesa",
+    "categoria": "Hamburguesas",
+    "tags": ["doble carne angus", "queso americano", "tocineta", "aros de cebolla", "bbq"]
+  },
+  {
+    "id": "ham4",
+    "nombre": "Magistral",
+    "descripcion": "Carne Angus, queso americano, tocineta, carne de res ahumada terminada en cocción lenta con cerveza, cebolla crispy, lechuga crespa, tomate, salsas de la casa, acompañada de papas a la francesa",
+    "categoria": "Hamburguesas",
+    "tags": ["carne angus", "queso americano", "tocineta", "res ahumada", "cerveza"]
+  },
+  {
+    "id": "ham5",
+    "nombre": "Gorrino",
+    "descripcion": "Carne Angus, queso americano, tocineta, pepinillos, cebolla crispy, lechuga crespa, tomate, carne de cerdo ahumada terminada en cocción lenta con cerveza roja, acompañada de papas a la francesa",
+    "categoria": "Hamburguesas",
+    "tags": ["carne angus", "queso americano", "tocineta", "cerdo ahumado", "cerveza roja"]
+  },
+  {
+    "id": "piz1",
+    "nombre": "Hawaiana",
+    "descripcion": "Jamón, piña melada, parmesano",
+    "categoria": "Pizza",
+    "tags": ["jamón", "piña", "parmesano"]
+  },
+  {
+    "id": "piz2",
+    "nombre": "Pollo y champiñones",
+    "descripcion": "Pollo, champiñones, parmesano",
+    "categoria": "Pizza",
+    "tags": ["pollo", "champiñones", "parmesano"]
+  },
+  {
+    "id": "piz3",
+    "nombre": "Margarita",
+    "descripcion": "Tomate, albahaca, parmesano",
+    "categoria": "Pizza",
+    "tags": ["tomate", "albahaca", "parmesano"]
+  },
+  {
+    "id": "piz4",
+    "nombre": "Pepperoni",
+    "descripcion": "Pepperoni, parmesano",
+    "categoria": "Pizza",
+    "tags": ["pepperoni", "parmesano"]
+  },
+  {
+    "id": "piz5",
+    "nombre": "De carnes",
+    "descripcion": "Chorizo, salami, tocineta, cabano, pepperoni, maduro, maicitos, pimentón escalibado, parmesano",
+    "categoria": "Pizza",
+    "tags": ["chorizo", "salami", "tocineta", "pepperoni"]
+  },
+  {
+    "id": "piz6",
+    "nombre": "Napolitana",
+    "descripcion": "Pollo, tocineta, champiñones, tomate cherry, aceituna, tomate seco, albahaca genovesa, parmesano",
+    "categoria": "Pizza",
+    "tags": ["pollo", "tocineta", "champiñones"]
+  },
+  {
+    "id": "piz7",
+    "nombre": "4 Quesos",
+    "descripcion": "Queso mozzarella, queso azul, queso cheddar, parmesano, tomate cherry, albahaca",
+    "categoria": "Pizza",
+    "tags": ["mozzarella", "azul", "cheddar"]
+  },
+  {
+    "id": "piz8",
+    "nombre": "BBQ",
+    "descripcion": "Costilla desmechada, salsa BBQ, tocineta, pimentón escalibado, maicitos",
+    "categoria": "Pizza",
+    "tags": ["costilla", "bbq", "tocineta"]
+  },
+  {
+    "id": "piz9",
+    "nombre": "Carbonara",
+    "descripcion": "Salsa carbonara, tocineta, maicitos, parmesano",
+    "categoria": "Pizza",
+    "tags": ["carbonara", "tocineta"]
+  },
+  {
+    "id": "piz10",
+    "nombre": "Vegetariana",
+    "descripcion": "Tomate cherry, aceitunas, pimentón escalibado, champiñones, tomate seco, maicitos, parmesano",
+    "categoria": "Pizza",
+    "tags": ["vegetariana", "tomate cherry", "aceitunas"]
+  },
+  {
+    "id": "piz11",
+    "nombre": "Boloñesa",
+    "descripcion": "Queso mozzarella, carne en salsa boloñesa, parmesano",
+    "categoria": "Pizza",
+    "tags": ["mozzarella", "boloñesa"]
+  },
+  {
+    "id": "piz12",
+    "nombre": "Picante Mexicana",
+    "descripcion": "Carne molida, jalapeños, cebolla, pimientos, queso mozzarella",
+    "categoria": "Pizza",
+    "tags": ["picante", "jalapeños", "pimientos"]
+  },
+  {
+    "id": "piz13",
+    "nombre": "Italiana",
+    "descripcion": "Tocineta, pepperoni, tomate cherry, pimentón escalibado, parmesano",
+    "categoria": "Pizza",
+    "tags": ["tocineta", "pepperoni"]
+  },
+  {
+    "id": "sand1",
+    "nombre": "Ropa vieja",
+    "descripcion": "Pan ciabatta, carne desmechada, queso americano, tomate, lechuga, salsa ranch, salsa BBQ, acompañado con papas a la francesa",
+    "categoria": "Sandwiches",
+    "tags": ["ciabatta", "carne desmechada", "ranch"]
+  },
+  {
+    "id": "sand2",
+    "nombre": "BBQ",
+    "descripcion": "Pan ciabatta, cerdo desmechado, salsa BBQ, maicitos, queso americano, lechuga Batavia, salsas de la casa, acompañado con papas a la francesa",
+    "categoria": "Sandwiches",
+    "tags": ["ciabatta", "cerdo desmechado", "bbq"]
+  },
+  {
+    "id": "sand3",
+    "nombre": "Pollo",
+    "descripcion": "Pan ciabatta, pollo en salsa carbonara, queso mozzarella, tocineta, lechuga Batavia, salsas de la casa, acompañado con papas a la francesa",
+    "categoria": "Sandwiches",
+    "tags": ["ciabatta", "pollo", "carbonara"]
+  },
+  {
+    "id": "sand4",
+    "nombre": "Jamón y cordero",
+    "descripcion": "Pan ciabatta, jamón de cordero, jamón de cerdo, tocineta, queso mozzarella, salsas de la casa, acompañado con papas a las francesas",
+    "categoria": "Sandwiches",
+    "tags": ["ciabatta", "jamón de cordero", "jamón de cerdo"]
+  },
+  {
+    "id": "sand5",
+    "nombre": "Hawaiano",
+    "descripcion": "Pan ciabatta, jamón de cerdo, piña melada, lechuga Batavia, queso mozzarella, acompañado con papas a la francesa",
+    "categoria": "Sandwiches",
+    "tags": ["ciabatta", "jamón de cerdo", "piña"]
+  },
+  {
+    "id": "las1",
+    "nombre": "Lasagna de carne",
+    "descripcion": "Bolognesa, queso mozzarrella, parmesano",
+    "categoria": "Lasagna",
+    "tags": ["bolognesa", "mozzarrella"]
+  },
+  {
+    "id": "las2",
+    "nombre": "Lasagna de pollo",
+    "descripcion": "Pollo en salsa bechamel, champiñones, tocineta, queso mozzarella",
+    "categoria": "Lasagna",
+    "tags": ["bechamel", "champiñones"]
+  },
+  {
+    "id": "las3",
+    "nombre": "Lasagna mixta",
+    "descripcion": "Bolognesa, pollo en salsa bechamel, queso mozzarella, tocineta, maduro, maicitos, parmesano",
+    "categoria": "Lasagna",
+    "tags": ["bolognesa", "pollo", "mozzarrella"]
+  },
+  {
+    "id": "bev1",
+    "nombre": "Gaseosa personal",
+    "descripcion": "Bebida de 350 ml",
+    "categoria": "Gaseosas",
+    "tags": ["350ml"]
+  },
+  {
+    "id": "bev2",
+    "nombre": "Gaseosa litro",
+    "descripcion": "bebida de 1 litro",
+    "categoria": "Gaseosas",
+    "tags": ["1l"]
+  },
+  {
+    "id": "bev3",
+    "nombre": "Jugos HiT",
+    "descripcion": "Jugo hit personal de 350 ml",
+    "categoria": "Gaseosas",
+    "tags": ["350ml"]
+  },
+  {
+    "id": "bev4",
+    "nombre": "Botella de agua",
+    "descripcion": "Agua Crystal de 500 ml",
+    "categoria": "Gaseosas",
+    "tags": ["500ml"]
+  },
+  {
+    "id": "bev5",
+    "nombre": "Cereza",
+    "descripcion": "Limonada natural con cereza fresca",
+    "categoria": "Limonadas",
+    "tags": ["cereza"]
+  },
+  {
+    "id": "bev6",
+    "nombre": "Coco",
+    "descripcion": "Limonada natural de Coco",
+    "categoria": "Limonadas",
+    "tags": ["coco"]
+  },
+  {
+    "id": "bev7",
+    "nombre": "Natural",
+    "descripcion": "Limonada natural",
+    "categoria": "Limonadas",
+    "tags": ["natural"]
+  },
+  {
+    "id": "bev8",
+    "nombre": "Jugo en Agua",
+    "descripcion": "Naranja, piña y maracuyá",
+    "categoria": "Jugos Naturales",
+    "tags": ["naranja", "piña", "maracuyá"]
+  },
+  {
+    "id": "bev9",
+    "nombre": "Jugo en Leche",
+    "descripcion": "Banano, fresa y mora",
+    "categoria": "Jugos Naturales",
+    "tags": ["banano", "fresa", "mora"]
+  },
+  {
+    "id": "bev10",
+    "nombre": "Cerveza Corona",
+    "descripcion": "Cerveza de 300 ml",
+    "categoria": "Cervezas",
+    "tags": ["300ml"]
+  },
+  {
+    "id": "bev11",
+    "nombre": "Cerveza Aguila",
+    "descripcion": "Cerveza de 300 ml",
+    "categoria": "Cervezas",
+    "tags": ["300ml"]
+  },
+  {
+    "id": "bev12",
+    "nombre": "Cerveza Poker",
+    "descripcion": "Cerveza de 300 ml",
+    "categoria": "Cervezas",
+    "tags": ["300ml"]
+  },
+  {
+    "id": "cock1",
+    "nombre": "Fresa Boom",
+    "descripcion": "Granizado de Fresa Bombombum con Whiskey",
+    "categoria": "Con Licor",
+    "tags": ["fresa", "whiskey", "granizado"]
+  },
+  {
+    "id": "cock2",
+    "nombre": "Miami",
+    "descripcion": "Granizado de Kola, Melón, Ron Blanco",
+    "categoria": "Con Licor",
+    "tags": ["kola", "melón", "ron blanco", "Granizado"]
+  },
+  {
+    "id": "mock1",
+    "nombre": "Mango Viche",
+    "descripcion": "Granizado de Mango Viche sin licor",
+    "categoria": "Sin Licor",
+    "tags": ["mango", "sin licor", "granizado"]
+  },
+  {
+    "id": "mock2",
+    "nombre": "Maracuya",
+    "descripcion": "Granizado de Maracuya sin licor",
+    "categoria": "Sin Licor",
+    "tags": ["maracuya", "sin licor", "granizado"]
+  },
+  {
+    "id": "mock3",
+    "nombre": "Mora Azul",
+    "descripcion": "Granizado de Mora Azul sin licor",
+    "categoria": "Sin Licor",
+    "tags": ["mora", "sin licor", "granizado"]
+  }
+]
