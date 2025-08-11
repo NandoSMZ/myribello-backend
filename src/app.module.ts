@@ -5,6 +5,10 @@ import { RecommendModule } from './recommend/recommend.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { typeOrmConfig } from './config/typeorm.config';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { CategoriesModule } from './categories/categories.module';
+import { ProductsModule } from './products/products.module';
+import { UploadImageModule } from './upload-image/upload-image.module';
+import { TransactionsModule } from './transactions/transactions.module';
 
 @Module({
   imports: [
@@ -17,6 +21,10 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       inject: [ConfigService],
     }),
     RecommendModule,
+    CategoriesModule,
+    ProductsModule,
+    UploadImageModule,
+    TransactionsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
