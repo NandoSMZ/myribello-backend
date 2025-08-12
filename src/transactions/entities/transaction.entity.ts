@@ -35,6 +35,10 @@ export class Transaction {
   @Column({ type: 'boolean', default: false })
   takeAway: boolean;
 
+  // Metodo de pago
+  @Column({ type: 'varchar', length: 50, nullable: false })
+  paymentMethod: string;
+
   // Direccion de entrega
   @Column({ type: 'text', nullable: true })
   deliveryAddress: string;

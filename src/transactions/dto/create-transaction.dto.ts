@@ -44,6 +44,10 @@ export class CreateTransactionDto {
   @IsBoolean({ message: 'TakeAway no válido' })
   takeAway: boolean;
 
+  @IsNotEmpty({ message: 'El Metodo de pago no puede ir vacio' })
+  @IsString({ message: 'Metodo de pago no válido' })
+  paymentMethod?: string;
+
   @IsDeliveryAddressRequired({
     message:
       'La dirección de entrega es obligatoria cuando el pedido es para llevar',

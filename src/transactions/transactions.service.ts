@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import {
   BadRequestException,
   Injectable,
@@ -37,6 +35,7 @@ export class TransactionsService {
         transaction.customerName = createTransactionDto.customerName;
         transaction.comments = createTransactionDto.comments ?? '';
         transaction.takeAway = createTransactionDto.takeAway;
+        transaction.paymentMethod = createTransactionDto.paymentMethod ?? '';
         transaction.deliveryAddress =
           createTransactionDto.deliveryAddress ?? '';
         transaction.status =
