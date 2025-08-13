@@ -1,4 +1,11 @@
-import { IsInt, IsNotEmpty, IsNumber, IsString } from 'class-validator';
+import {
+  IsBoolean,
+  IsInt,
+  IsNotEmpty,
+  IsNumber,
+  IsOptional,
+  IsString,
+} from 'class-validator';
 
 export class CreateProductDto {
   @IsNotEmpty({ message: 'name is required' })
@@ -18,4 +25,8 @@ export class CreateProductDto {
   @IsNotEmpty({ message: 'categoryId is required' })
   @IsInt({ message: 'categoryId must be an integer' })
   categoryId: number;
+
+  @IsOptional()
+  @IsBoolean({ message: 'status must be a boolean' })
+  status?: boolean;
 }

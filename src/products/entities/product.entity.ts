@@ -28,4 +28,7 @@ export class Product {
 
   @Column({ type: 'int' })
   categoryId: number;
+
+  @Column({ type: 'boolean', default: true })
+  status: boolean;
 }
