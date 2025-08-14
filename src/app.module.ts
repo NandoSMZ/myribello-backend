@@ -10,6 +10,7 @@ import { ProductsModule } from './products/products.module';
 import { UploadImageModule } from './upload-image/upload-image.module';
 import { TransactionsModule } from './transactions/transactions.module';
 import { AuthModule } from './auth/auth.module';
+import { HealthModule } from './health/health.module';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import { AuthModule } from './auth/auth.module';
     UploadImageModule,
     TransactionsModule,
     AuthModule,
+    HealthModule,
   ],
   controllers: [AppController],
   providers: [AppService],
