@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import { ConfigService } from '@nestjs/config';
 import type { TypeOrmModuleOptions } from '@nestjs/typeorm';
 import { join } from 'path';
@@ -8,12 +7,12 @@ export const typeOrmConfig = (
 ): TypeOrmModuleOptions => ({
   type: 'postgres',
   host: configService.get('DATABASE_HOST'),
-  port: configService.get('DATABASE_PORT'),
+  port: +configService.get('DATABASE_PORT'),
   username: configService.get('DATABASE_USER'),
   password: configService.get('DATABASE_PASSWORD'),
   database: configService.get('DATABASE_NAME'),
-  ssl: true,
+  ssl: { rejectUnauthorized: false },
+  synchronize: true,
   logging: false,
   entities: [join(__dirname, '..', '**', '*.entity.{ts,js}')],
-  synchronize: true,
 });
